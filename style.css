@@ -1,0 +1,595 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/japanese_food.jpg");
+    background-size: cover;
+    height: 721px;
+}
+
+.center-nav li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.center-nav {
+    word-spacing: 20px;
+    letter-spacing: 4px;
+    margin-right: 77px;
+}
+
+
+.nav-bar .center-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+}
+
+.order {
+    border: 2px solid #fff;
+    margin: 16px 20px 8px 0;
+    padding: 15px 12px 0 12px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant-name {
+    font-family: 'Lora', serif;
+    margin: 18px 0 10px 20px;
+    color: rgb(177, 105, 12);
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+.little {
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.center-nav li a:hover {
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.3px;
+    color: rgb(177, 105, 12);
+    transition: all 0.3s ease-in-out;
+}
+
+.order:hover {
+    background-color: rgba(177, 105, 12);
+    border-color: rgb(177, 105, 12);
+    transition: all 0.4s ease-in-out;
+}
+
+.main-side {
+    color: #fff;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.happy-hours {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+}
+
+.middle-side {
+    font-size: 108px;
+    margin: 10px 0 5px 0;
+    font-family: 'Lora', serif;
+    letter-spacing: 10px;
+    font-weight: lighter;
+}
+
+.bottom-text {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.menu-list1 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lora', serif;
+    line-height: 30px;
+    margin: 0 50px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0 30px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 6px;
+}
+
+.h-menu, .p-menu1, .p-menu2, .p-menu3 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.h-menu {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 15px 0 30px 0;
+}
+
+.p-menu1 {
+    margin-left: 7px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(177, 105, 12);
+}
+
+.p-menu2, .p-menu3 {
+    margin-top: 8px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+dd {
+    font-style: italic;
+}
+
+.menu-name1 {
+    color: rgb(177, 105, 12);
+}
+
+.menu-name2 {
+    color: rgb(177, 105, 12);
+    margin-right: 5px;
+}
+
+.menu-name3 {
+    color: rgb(177, 105, 12);
+    margin-right: 55px;
+}
+
+.price {
+    float: right;
+    margin-right: 17px;
+    font-size: 15px;
+}
+
+.menu-list3 {
+    margin: 0 40px;
+}
+
+.ramen, .izakaya {
+    height: 450px;
+    width: 300px;
+    background-size: cover;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 40px;
+}
+
+.p-welcome {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(177, 105, 12); 
+    margin: 50px 0 30px; 
+}
+
+.h-welcome {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.p-welcome1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.p-welcome2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+.order2 {
+    border: 2px solid rgb(177, 105, 12);
+    font-size: 13px;
+    background-color: rgba(177, 105, 12);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.order2:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out;
+    color: rgba(177, 105, 12);
+}
+
+.come-see {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("images/sushi.jpg");
+    height: 250px;
+    background-size: cover;
+}
+
+.comeandsee {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(177, 105, 12);
+    text-align: center;
+    padding: 50px 0 35px;
+}
+
+.come-text {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
+}
+
+.booking {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("Images/people.jpg");
+    height: 250px;
+    background-size: cover;
+    margin: 100px 0;
+}
+
+.now-booking {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(177, 105, 12);
+    text-align: center;
+    padding: 50px 0 35px;
+}
+
+.book-text {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px 100px;
+    height: 450px;
+}
+
+.left-side {
+    padding: 35px 20px;
+}
+
+.chef-image {
+    padding: 0 20px;
+}
+
+.behind {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(177, 105, 12);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.the-team {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.team-text {
+    margin-bottom: 45px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.findd_moree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.find-more {
+    border: 2px solid rgb(177, 105, 12);
+    font-size: 13px;
+    background-color: rgba(177, 105, 12);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.find-more:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out;
+    color: rgba(177, 105, 12);
+}
+
+.p-gallery {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(177, 105, 12);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.p-photos {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.photos0 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.photos {
+    width: 290px;
+    box-shadow: 12px 12px 8px rgb(158, 154, 154);
+}
+
+.seee_moree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.see-more {
+    border: 2px solid rgb(177, 105, 12);
+    font-size: 13px;
+    background-color: rgba(177, 105, 12);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 15px;
+}
+
+.see-more:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out;
+    color: rgba(177, 105, 12);
+}
+
+.gallery {
+    margin-bottom: 100px;
+}
+
+.p-contact {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(177, 105, 12);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.p-reservation {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.two-choice1 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.two-choice2 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+    margin: 10px 30px 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.first-choice1 {
+    margin-right: 30px;
+}
+
+.top-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=text], input[type=email] {
+    width: 33%;
+    padding: 18px;
+    border: 1px solid rgb(243, 241, 241);
+    margin-bottom: 16px;
+    background-color: rgb(243, 241, 241);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid rgb(243, 241, 241);
+    background-color: rgb(243, 241, 241);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.bookk_noww {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    border: 2px solid rgb(177, 105, 12);
+    font-size: 13px;
+    background-color: rgba(177, 105, 12);
+    color: rgb(255, 255, 255);
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bolder;
+} 
+
+.contact-form {
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out;
+    color: rgba(177, 105, 12);
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer1 {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/bg_img.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    height: 300px;
+}
+
+.first-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.f-address, .f-hours, .f-more-info {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.left-footer {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+}
+
+.second-footer {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.restaurant-name1 {
+    font-family: 'Lora', serif;
+    color: rgb(177, 105, 12);
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+.little1 {
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.a-more-info {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.a-more-info:hover {
+    color: rgb(177, 105, 12);
+    transition: all 0.2s ease-in-out;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 70px;
+}
+
+.logos li{
+    list-style: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.fab {
+    color: #fff;
+}
+
+.fb:hover {
+    color: #4267B2;
+    transition: all 0.3s ease-in-out;
+}
+
+.ig:hover {
+    color: #dd2a7b;
+    transition: all 0.3s ease-in-out;
+}
+
+.tw:hover {
+    color: #1DA1F2;
+    transition: all 0.3s ease-in-out;
+}
